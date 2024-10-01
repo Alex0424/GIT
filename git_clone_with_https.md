@@ -19,3 +19,8 @@ Cache your credentials temporarily (for 1 hour)
 ```
 git config --global credential.helper 'cache --timeout=3600'
 ```
+
+or store credentials permanently in plain text
+```
+git config --global credential.helper store
+```
