@@ -1,4 +1,4 @@
-# Git Clone
+# Git Clone With SSH
 
 generate a new ssh key:
 ```
@@ -14,5 +14,5 @@ ssh-add ~/.ssh/<private_key>
 ```
 
 ```
-git clone URL
+git clone git@github.com:USERNAME/REPO_NAME.git
 ```
