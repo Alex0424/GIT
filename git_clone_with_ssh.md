@@ -13,6 +13,16 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/<private_key>
 ```
 
+make ssh-agent to remember it permanent, then do this:
+
+`vim ~/.bashrc`
+```
+if [ -z "$SSH_AUTH_SOCK" ]; then
+  eval "$(ssh-agent -s)"
+  ssh-add ~/.ssh/<private_key>
+fi
+```
+
 ```
 git clone git@github.com:USERNAME/REPO_NAME.git
 ```
