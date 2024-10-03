@@ -1,6 +1,7 @@
 # GIT CLI UI (Linux)
 
 know on what branch you are, have your current branch status and other cool stuff
+
 to have this ui info, then edit this file:
 `vim ~/.bashrc`
 
